@@ -1,0 +1,49 @@
+@import '../../../styles/color-tokens.scss';
+
+$component : '.todo-entry-form';
+
+#{$component}{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: -1.8rem;
+   
+    &_input {
+        font-size: 1rem;
+        color: $gray-100;
+        padding: 1rem;
+        background-color:$gray-500;
+        width: 800px;
+        border: 1px solid $gray-500;
+        border-radius: 8px;
+        &:focus {
+            outline-color: $purple-dark;
+
+
+        &::placeholder{
+            color: $gray-300;
+
+        }
+            
+        }
+    }
+    &_button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+        padding: 1rem;
+        border-radius: 8px;
+        border: none;
+        background: $blue;
+        color: $gray-100;
+        cursor: pointer;
+        font-size: .875rem;
+        font-weight: 500;
+        &:hover{
+            background: $blue-dark;
+         
+        }
+    }
+}
+

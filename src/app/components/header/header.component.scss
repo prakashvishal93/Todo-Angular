@@ -1,0 +1,23 @@
+@import '../../../styles/color-tokens.scss';
+
+$component : 'header';
+
+#{$component}{
+    background-color: $gray-700;
+    padding: 4.5rem 0 5rem 0;
+    // margin: auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
