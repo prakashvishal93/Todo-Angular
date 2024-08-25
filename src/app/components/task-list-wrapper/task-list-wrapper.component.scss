@@ -1,0 +1,24 @@
+@import '../../../styles/color-tokens.scss';
+
+$component : '.task-list-wrapper';
+
+#{$component}{
+    margin-top: 4rem;
+
+    
+    
+    
+    &_info-wrapper{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        margin-bottom: 1.5rem;
+    }
+
+    
+    
+}
+
+ 

@@ -1,0 +1,17 @@
+@import '../../../styles/color-tokens.scss';
+
+$component : '.task-list';
+
+#{$component}{
+
+
+    border-top: 1px solid $gray-400;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.75rem;
+
+ 
+}
+
+ 

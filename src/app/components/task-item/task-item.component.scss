@@ -1,0 +1,47 @@
+@import '../../../styles/color-tokens.scss';
+
+$component : '.task-item';
+
+#{$component}{
+    background: $gray-500;
+    border-color: 1px solid $gray-500;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: .5rem;
+
+
+    &_check-task{
+        // color: red;
+       margin-right: 17px;
+        
+    }
+    &_task-label{
+        font-size: 14px;
+        color: $gray-100;
+
+    }
+    &_delete-task-button{
+        background: transparent;
+        border: none;
+        padding: .375rem;
+        cursor: pointer;
+        border-radius: .25rem;
+
+
+        &:hover{
+            background: $gray-400;
+          svg{
+            stroke: red;
+
+          }
+
+    }
+  
+ 
+}
+}
+
+ 

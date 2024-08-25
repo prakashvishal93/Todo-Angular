@@ -1,0 +1,30 @@
+@import '../../../styles/color-tokens.scss';
+
+$component : '.task-info-tag';
+
+#{$component}{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    &_label{
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+
+         
+    }
+
+    &_value{
+        color: #fff;
+        padding: 2px 8px;
+        background: $gray-700;
+        color: $gray-200;
+        border-radius: 50%;
+        font-size: 13px;
+        font-weight: 500;
+        
+    }
+ 
+}
+
